@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home";
 import OurClasses from "@/scenes/ourClasses";
@@ -42,3 +43,18 @@ function App() {
 }
 
 export default App;
+=======
+import Navbar from "@/scenes/Navbar"
+
+function App() {
+  return (
+    <div className="App bg-gray-50">
+      <Navbar />
+      
+    </div>
+  )
+}
+export default App
+
+// you can do export default App here but it is not recommended because it will make the code less readable and harder to maintain.
+>>>>>>> f6e3bd5b05c6e2fe314b3dfa9fe986839fce2978
